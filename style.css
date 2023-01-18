@@ -1,0 +1,32 @@
+body{
+  margin: 20px;
+  font-style: verdana;
+}
+
+.card{
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border: 5px dotted #ab4e68;
+  border-radius: 10px;
+  color: #2b2839;
+  background: #f98948;
+  line-height: 8px;
+  /* box-sizing: border-box; */
+}
+
+.card:hover{
+  text-transform: uppercase;
+}
+
+.avatar{
+  width: 150px;
+  border-radius: 50%;
+}
+
+.border-blue{
+  border: 1px dotted blue;
+}
